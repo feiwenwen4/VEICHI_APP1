@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/textView25"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_weight="1" />
 
         <TextView
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/textView26"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_weight="1" />
 
         <TextView
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/textView27"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_weight="1" />
 
         <TextView
@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/textView28"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_weight="1" />
 
         <TextView
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/textView29"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_weight="1" />
 
         <TextView
@@ -65,7 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/textView30"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_weight="1" />
 
     </LinearLayout>
@@ -91,7 +91,7 @@
                 android:background="@android:color/holo_blue_light"
                 android:text="功能码"
                 android:gravity="center"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -99,7 +99,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_red_dark"
                 android:text="FE.00 油压模式"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -107,7 +107,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_blue_light"
                 android:text="FE.01 压力指令通道"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -115,7 +115,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_red_dark"
                 android:text="FE.02 流量指令通道"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -123,7 +123,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_blue_light"
                 android:text="FE.03 压力反馈通道"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -131,7 +131,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_red_dark"
                 android:text="FE.04 传感器类型"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -139,7 +139,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_blue_light"
                 android:text="FE.05 压力传感器量程"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -147,7 +147,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_red_dark"
                 android:text="FE.06 系统压力"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -155,7 +155,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_blue_light"
                 android:text="FE.07 流量基准转速"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -163,7 +163,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_red_dark"
                 android:text="FE.09 底压"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -171,7 +171,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_blue_light"
                 android:text="FE.10 底流"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -179,7 +179,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_red_dark"
                 android:text="FE.11 卸压反向速度"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -187,7 +187,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_blue_light"
                 android:text="FE.16 压力上升时间"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -195,7 +195,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_red_dark"
                 android:text="FE.17 压力下降时间"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -203,7 +203,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_blue_light"
                 android:text="FE.18 流量上升时间"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -211,7 +211,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/holo_red_dark"
                 android:text="FE.19 流量下降时间"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -227,7 +227,7 @@
                 android:background="@android:color/holo_orange_dark"
                 android:text="设定值"
                 android:gravity="center"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <Spinner
                 android:layout_width="match_parent"
@@ -248,7 +248,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:id="@+id/spinner_fe02"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:background="@android:color/holo_blue_bright"/>
 
             <Spinner
@@ -256,7 +256,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:id="@+id/spinner_fe03"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:background="@android:color/darker_gray"/>
 
             <Spinner
@@ -264,7 +264,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:id="@+id/spinner_fe04"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:background="@android:color/holo_blue_bright"/>
 
             <TextView
@@ -273,8 +273,8 @@
                 android:layout_weight="1"
                 android:id="@+id/textView_fe05"
                 android:background="@android:color/holo_orange_dark"
-                android:text="FE05 00000"
-                android:textSize="20dp" />
+                android:text="FE05 11111"
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -283,7 +283,7 @@
                 android:id="@+id/textView_fe06"
                 android:background="@android:color/holo_green_light"
                 android:text="FE06 00000"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
