@@ -1,0 +1,102 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+    <string-array name="spinner_array_monitorAC100">
+        <item>C-00 给定频率</item>
+        <item>C-01 输出频率</item>
+        <item>C-02 输出电流</item>
+        <item>C-03 输入电压</item>
+        <item>C-04 输出电压</item>
+        <item>C-05 机械速度</item>
+        <item>C-06 同步频率</item>
+        <item>C-07 输出转矩</item>
+        <item>C-08 PID给定量</item>
+        <item>C-09 PID反馈量</item>
+        <item>C-10 输出功率</item>
+        <item>C-11 母线电压</item>
+        <item>C-12 模块温度1</item>
+        <item>C-13 模块温度2</item>
+        <item>C-14 输入端子X接通状态</item>
+        <item>C-15 输出端子Y接通状态</item>
+        <item>C-16 模拟量VS输入值</item>
+        <item>C-17 模拟量AI输入值</item>
+        <item>C-18 模拟量AS输入值</item>
+        <item>C-19 脉冲信号PUL输入值</item>
+        <item>C-20 模拟量输出A01</item>
+        <item>C-21 模拟量输出A02</item>
+        <item>C-22 计数器计数值</item>
+        <item>C-23 本次上电运行时间</item>
+        <item>C-24 本机累计运行时间</item>
+        <item>C-25 变频器功率等级</item>
+        <item>C-26 变频器额定电压</item>
+        <item>C-27 变频器额定电流</item>
+        <item>C-28 软件版本</item>
+        <item>C-29 PG反馈频率</item>
+        <item>C-30 扩展输入X端子接通状态</item>
+        <item>C-31 扩展输出Y端子接通状态</item>
+        <item>C-32 扩展VS3输入值</item>
+        <item>C-33 保留</item>
+        <item>C-34 保留</item>
+        <item>C-35 定时器计时时间</item>
+        <item>C-36 输出电流</item>
+        <item>C-37 累计用电量(低位)</item>
+        <item>C-38 累计用电量(高位)</item>
+        <item>C-39 功率因素角度</item>
+        <item>C-40 同步机开环输出电压调节</item>
+        <item>C-41 励磁电流</item>
+        <item>C-42 力矩电流</item>
+        <item>C-43 变频器过载系数</item>
+        <item>C-44 电机过载系数</item>
+        <item>C-45 转速追踪信号频率</item>
+        <item>C-46 Z信号个数</item>
+        <item>C-47 转子磁场矢量相位</item>
+        <item>C-48 旋变AD诊断信号</item>
+        <item>C-49 故障诊断信息</item>
+    </string-array>
+
+    <string-array name="spinner_array_monitorSD650">
+        <item>C-00 压力指令</item>
+        <item>C-01 压力反馈</item>
+        <item>C-02 速度给定</item>
+        <item>C-03 速度反馈</item>
+        <item>C-04 流量指令</item>
+        <item>C-05 输出电流</item>
+        <item>C-06 输出电压</item>
+        <item>C-07 频率指令</item>
+        <item>C-08 频率反馈</item>
+        <item>C-09 输出转矩</item>
+        <item>C-10 输出功率</item>
+        <item>C-11 母线电压</item>
+        <item>C-12 模块温度</item>
+        <item>C-13 电机温度</item>
+        <item>C-14 输入端子X接通状态</item>
+        <item>C-15 输出端子Y接通状态</item>
+        <item>C-16 AI1</item>
+        <item>C-17 AI2</item>
+        <item>C-18 PAI</item>
+        <item>C-19 电机温度检测电压</item>
+        <item>C-20 模拟量输出A01</item>
+        <item>C-21 模拟量输出A02</item>
+        <item>C-22 计数器计数值</item>
+        <item>C-23 本次上电运行时间</item>
+        <item>C-24 本机累计运行时间</item>
+        <item>C-25 变频器功率等级</item>
+        <item>C-26 变频器额定电压</item>
+        <item>C-27 变频器额定电流</item>
+        <item>C-28 软件版本</item>
+        <item>C-29 PG反馈频率</item>
+    </string-array>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+</resources>

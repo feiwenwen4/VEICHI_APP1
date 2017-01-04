@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="搜索信号" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="信号列表" />
+        <item
+            android:enabled="true"
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="监控界面" />
+        <item
+            android:id="@+id/nav_manage_f0"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="F0 基本参数组" />
+        <item
+            android:id="@+id/nav_manage_f1"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="F1 运行控制参数组" />
+        <item
+            android:id="@+id/nav_manage_f2"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="F2 开关量端子参数组" />
+        <item
+            android:id="@+id/nav_manage_f3"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="F3 模拟量端子参数组" />
+        <item
+            android:id="@+id/nav_manage_f4"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="F4 键盘及显示参数组" />
+        <item
+            android:id="@+id/nav_manage_f5"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="F5 电机参数组" />
+        <item
+            android:id="@+id/nav_manage_f6"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="F6 矢量控制参数组" />
+        <item
+            android:id="@+id/nav_manage_f7"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="F7 转矩控制参数组" />
+        <item
+            android:id="@+id/nav_manage_f8"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="F8 V/F参数控制组" />
+        <item
+            android:id="@+id/nav_manage_fa"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="FA 故障及保护参数组" />
+        <item
+            android:id="@+id/nav_manage_fb"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="FB 过程PID控制参数组" />
+        <item
+            android:id="@+id/nav_manage_fc"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="FC 多段速PLC参数组" />
+        <item
+            android:id="@+id/nav_manage_fd"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="FD 通讯控制功能参数组" />
+        <item
+            android:id="@+id/nav_manage_fe"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="FE 油压控制功能参数组" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
