@@ -42,7 +42,7 @@
         android:text="00000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView_monitor_1"
+        android:id="@+id/textView_monitor_press"
         android:textSize="22sp"
         android:gravity="left"
         android:layout_below="@+id/textView2"
@@ -57,14 +57,14 @@
         android:textSize="22sp"
         android:gravity="left"
         android:layout_below="@+id/textView2"
-        android:layout_toRightOf="@+id/textView_monitor_1"
-        android:layout_toEndOf="@+id/textView_monitor_1" />
+        android:layout_toRightOf="@+id/textView_monitor_press"
+        android:layout_toEndOf="@+id/textView_monitor_press" />
 
     <TextView
         android:text="00000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView_monitor_4"
+        android:id="@+id/textView_monitor_speed"
         android:textSize="22sp"
         android:gravity="left"
         android:layout_alignBaseline="@+id/textView_monitor_3"
@@ -80,18 +80,8 @@
         android:textSize="22sp"
         android:gravity="left"
         android:layout_below="@+id/textView2"
-        android:layout_toRightOf="@+id/textView_monitor_4"
-        android:layout_toEndOf="@+id/textView_monitor_4" />
-
-    <TextView
-        android:text="00000"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView_monitor_6"
-        android:textSize="22sp"
-        android:gravity="left"
-        android:layout_below="@+id/textView2"
-        android:layout_toRightOf="@+id/textView_monitor_5" />
+        android:layout_toRightOf="@+id/textView_monitor_speed"
+        android:layout_toEndOf="@+id/textView_monitor_speed" />
 
     <TextView
         android:text="设定值"
@@ -102,8 +92,8 @@
         android:layout_alignTop="@+id/textView3"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/textView_monitor_4"
-        android:layout_toRightOf="@+id/textView_monitor_4" />
+        android:layout_toEndOf="@+id/textView_monitor_speed"
+        android:layout_toRightOf="@+id/textView_monitor_speed" />
 
     <TextView
         android:text="F5.01 电机极数(默认)"
@@ -199,18 +189,18 @@
         android:textSize="22sp"
         android:gravity="center"
         android:layout_above="@+id/textView4"
-        android:layout_toLeftOf="@+id/textView_monitor_4"
-        android:layout_toStartOf="@+id/textView_monitor_4"
-        android:layout_below="@+id/textView_monitor_1" />
+        android:layout_toLeftOf="@+id/textView_monitor_speed"
+        android:layout_toStartOf="@+id/textView_monitor_speed"
+        android:layout_below="@+id/textView_monitor_press" />
 
     <TextView
         android:text="停机"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView14"
+        android:id="@+id/textView_monitor_status"
         android:textSize="22sp"
         android:gravity="center"
-        android:layout_below="@+id/textView_monitor_4"
+        android:layout_below="@+id/textView_monitor_speed"
         android:layout_toLeftOf="@+id/textView4"
         android:layout_toStartOf="@+id/textView4"
         android:layout_above="@+id/textView4" />
@@ -223,21 +213,6 @@
         android:layout_toEndOf="@+id/textView5"
         android:id="@+id/spinner_f500" />
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_below="@+id/textView5"
-        android:layout_toRightOf="@+id/textView6"
-        android:layout_toEndOf="@+id/textView6"
-        android:id="@+id/spinner_f501" />
-
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_below="@+id/textView6"
-        android:layout_toRightOf="@+id/textView6"
-        android:layout_toEndOf="@+id/textView6"
-        android:id="@+id/spinner_f502" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -250,26 +225,10 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:layout_above="@+id/textView10"
-        android:layout_toRightOf="@+id/textView9"
-        android:layout_toEndOf="@+id/textView9"
-        android:id="@+id/spinner_f504" />
-
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
         android:layout_above="@+id/textView11"
         android:layout_toRightOf="@+id/textView10"
         android:layout_toEndOf="@+id/textView10"
         android:id="@+id/spinner_f505" />
-
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_alignBottom="@+id/textView11"
-        android:layout_toRightOf="@+id/textView11"
-        android:layout_toEndOf="@+id/textView11"
-        android:id="@+id/spinner_f506" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -302,26 +261,6 @@
         android:layout_toLeftOf="@+id/spinner_f505"
         android:layout_toStartOf="@+id/spinner_f505" />
 
-    <TextView
-        android:text="F5.06 额定电流(参考铭牌)"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:id="@+id/textView11"
-        android:textSize="20sp"
-        android:layout_below="@+id/textView10"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/spinner_f505"
-        android:layout_toStartOf="@+id/spinner_f505" />
-
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_alignBottom="@+id/textView15"
-        android:id="@+id/spinner_f016"
-        android:layout_toRightOf="@+id/textView15"
-        android:layout_toEndOf="@+id/textView15" />
-
     <Button
         android:text="点动运行"
         android:layout_width="wrap_content"
@@ -337,7 +276,82 @@
         android:layout_height="wrap_content"
         android:id="@+id/button5"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/textView_monitor_6"
-        android:layout_alignEnd="@+id/textView_monitor_6" />
+        android:layout_alignRight="@+id/textView_monitor_current"
+        android:layout_alignEnd="@+id/textView_monitor_current" />
+
+    <TextView
+        android:text="00000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_monitor_current"
+        android:textSize="22sp"
+        android:gravity="left"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/textView_monitor_5"
+        android:layout_toEndOf="@+id/textView_monitor_5" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_monitor_F502"
+        android:layout_above="@+id/spinner_f503"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/spinner_f501"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/spinner_f501"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:id="@+id/textView_monitor_F504"
+        android:layout_above="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/spinner_f016"
+        android:layout_below="@+id/textView11"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15" />
+
+    <TextView
+        android:text="F5.06 额定电流(参考铭牌)"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/textView11"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/spinner_f505"
+        android:layout_toStartOf="@+id/spinner_f505" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/textView_monitor_F506"
+        android:layout_below="@+id/spinner_f505"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10" />
 
 </RelativeLayout>

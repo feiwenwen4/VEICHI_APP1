@@ -312,7 +312,13 @@ public class ParameterActivity extends AppCompatActivity
             }else{
                 fTransaction.show(fgMonitor);
             }
-        } else if (id == R.id.nav_manage_f0) {
+        } else if (id == R.id.nav_manage_SD650_init) {
+
+
+        }else if (id == R.id.nav_manage_SD650_para) {
+
+
+        }else if (id == R.id.nav_manage_f0) {
             functionGroup = 0;
 
             Message msg = Message.obtain(handler, TASK_PARAMETER_CONTROL);
@@ -759,27 +765,18 @@ public class ParameterActivity extends AppCompatActivity
 
 
     boolean bBut_FWD_RUNNING_EN = false;
-    public void callFwdRunning(){
-        monitor_index = Const.MONITOR_BUTTON_FWDRUNNING;
-    }
+    public void callFwdRunning(){ monitor_index = Const.MONITOR_BUTTON_FWDRUNNING;}
     boolean bBut_SLOW_STOP_EN = false;
-    public void callSlowStop(){
-        monitor_index = Const.MONITOR_BUTTON_SLOWSTOP;
-    }
+    public void callSlowStop(){ monitor_index = Const.MONITOR_BUTTON_SLOWSTOP;}
     boolean bBut_REV_RUNNING_EN = false;
-    public void callRevRunning(){
-        monitor_index = Const.MONITOR_BUTTON_REVRUNNING;
-    }
+    public void callRevRunning(){  monitor_index = Const.MONITOR_BUTTON_REVRUNNING;}
     boolean bBut_FREE_STOP_EN = false;
-    public void callFreeStop(){
-        monitor_index = Const.MONITOR_BUTTON_FREESTOP;
-    }
+    public void callFreeStop(){ monitor_index = Const.MONITOR_BUTTON_FREESTOP;}
     boolean bBut_ALARM_RESET_EN = false;
-    public void callAlmReset(){
-        monitor_index = Const.MONITOR_BUTTON_ALARMRESET;
+    public void callAlmReset(){ monitor_index = Const.MONITOR_BUTTON_ALARMRESET;}
 //        Message msg = Message.obtain(handler, TASK_MONITOR_CONTROL);
 //        handler.sendMessageDelayed(msg, TIME_INTERVAL);
-    }
+
     boolean bREAD_PARAMETER_EN = false;
 
     //    boolean bBut_REFRESH_EN = false;

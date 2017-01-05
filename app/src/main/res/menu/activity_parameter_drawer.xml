@@ -16,6 +16,14 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="监控界面" />
         <item
+            android:id="@+id/nav_manage_SD650_init"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="SD650 调试界面" />
+        <item
+            android:id="@+id/nav_manage_SD650_para"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="SD650 参数设置" />
+        <item
             android:id="@+id/nav_manage_f0"
             android:icon="@drawable/ic_menu_manage"
             android:title="F0 基本参数组" />
